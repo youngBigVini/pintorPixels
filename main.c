@@ -26,7 +26,7 @@
 #include "hardware/sync.h"
 
 #ifndef BUG
-#define BUG 1
+#define BUG 0
 #endif
 
 /* ---------- Pinos ---------- */
@@ -38,8 +38,8 @@
 #define JOY_Y_PIN      26   /* ADC0 */
 
 /* Se o cursor andar ao contrário, troque para 1 */
-#define INVERT_X 0
-#define INVERT_Y 0
+#define INVERT_X 1
+#define INVERT_Y 1
 
 /* ---------- Parâmetros ---------- */
 #define GRID           5
